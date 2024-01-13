@@ -1,0 +1,219 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cataluna Portfolio</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" type="image/jpg" href="images/favicon.ico">
+
+    <script src="https://kit.fontawesome.com/78ad9abedd.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="images/backgroundvid.mp4" type="video/mp4">
+          </video>
+        <nav>
+            <img src="images/logo-L-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#Hobbies">HOBBIES</a></li>
+                <li><a href="#Work">WORK</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+            <div class="header-text">
+                <p class="P">Project for Intro to Computing</p>
+                <h1>Hi, I'm Lowell Jay <span>Cataluña</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------about--------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mypicture.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>I'm From Esperanza Sultan Kudarat and an information System student, <br>aspiring to be a future web developer, <br> with a passion to succeed and contribute to the world of software technology.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Remotasks</span><br>Lidar Data Analyst</li>
+                        <li><span>Dancer</span><br>Member of Royal illusion Dance Group</li>
+                        <li><span>Gamer</span><br>Multi Gaming Platform</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019-2021</span><br>Lidar Data Analyst</li>
+                        <li><span>2018-2021</span><br>Dance Group Member</li>
+                        <li><span>2017-Current</span><br>DOTA 2 <br>Rules of Survival <br>Mobile Legends <br>Call of duty</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2014</span><br>Laguinding Elementary School</li>
+                        <li><span>2023</span><br>Esperanza National Highschool</li>
+                        <li><span>Current</span><br>University Of Southern Mindanao</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="Hobbies">
+    <div class="container">
+        <h1 class="sub-title">Hobbies</h1>
+        <div class="Hobby-list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Gaming</h2>
+                <p> In performance management, gaming the system is finding ways to achieve good scores on performance metrics (for employees or departments) without achieving the aims of the corporation which the metrics were instigated to promote.</p>
+    
+            </div>
+            <div>
+                <i class="fa-brands fa-tiktok"></i>
+                <h2>Dancing</h2>
+                <p>  a form of creative expression through physical movement that includes rhythmic movements that accompany music. Historically, dance has been used in celebrations and religious observances. Dance has played an important role in human societies since ancient times and continues to evolve and develop today.</p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photography</h2>
+                <p>Photography is the art, application, and practice of creating images by recording light, either electronically by means of an image sensor, or chemically by means of a light-sensitive material such as photographic film. </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="YTvids">
+    <iframe width ="450px" height="230px" src="https://www.youtube.com/embed/Jgw0zsfFt7g" frameborder="0"></iframe>
+    <iframe width ="450px" height="230px"  src="https://www.youtube.com/embed/jy3Eb5gwAL4" frameborder="0"></iframe>
+    <iframe width ="450px" height="230px"  src="https://www.youtube.com/embed/ch44pzXammg" frameborder="0"></iframe>
+    </div>
+    </div>
+<!---------------work--------------------->
+<div id="Work">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work"> 
+            <img src="images/image-3.png">
+            <div class="layer">
+                <h3>Lidar Bee LSS</h3>
+                <p> We have tasks where we have to label, identify, and annotate 3D data from various sensors.
+                     That way, we can help self-driving cars identify obstacles and how they can avoid them. Categorization. We have tasks where we need to identify keywords that can describe what's in a text or an image.</p>
+            </div>
+            </div>
+
+            <div class="work">
+                <img src="images/photography2.jpg">
+                <div class="layer">
+                    <h3>Photography</h3>
+                    <p>A Photographer is a skilled professional who captures moments on film and uses images to convey stories.
+                        They collaborate with art teams, develop concepts, and employ various techniques to achieve desired results.</p>
+                </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/llama-lidar.png">
+                    <div class="layer">
+                        <h3>Lidar Llama LSS</h3>
+                        <p>Remotaskers working on 2D Tasks simply need to find and label objects from a single point of view.
+                            In turn, this means you can finish these tasks as soon as you label all the objects that exist in the footage, and as per the project instructions.</p>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>lowelljaycataluna18@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i></i>09303286955</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/acejay.cataluna/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/acecantzone/"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="https://www.tiktok.com/@stfu.ljtny?lang=en"><i class="fa-brands fa-tiktok"></i></i></a>
+                </div>
+                <a href="https://www.facebook.com/messages/t/100029063704508" class="btn">Direct on Messenger</a>
+                </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>  
+</div>
+
+<script>
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+   function opentab(tabname){
+
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+   }
+   event.currentTarget.classList.add("active-link");
+   document.getElementById(tabname).classList.add("active-tab")
+   }
+</script>
+
+<script>
+
+var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right = "0";
+}
+function closemenu(){
+    sidemeu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3LepTM94gecTuRAFfB5VcZFMS8ncdKCm0LDRhkdqeCfXhAIbvuISUI3FyxnbRhWrUCQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
